@@ -13,6 +13,7 @@
 				background-repeat: no-repeat;
 				background-color: #FFF;
 				height: 69px;
+				font-size: 0;
 				color: transparent;
 
 				&.wt-heading-img-c1{
@@ -33,8 +34,11 @@
 	}
 
 	.wt-special-quote{
-		padding: 25px;
+		padding: 25px 25px 15px;
 		background-color: @blockquote-bg-color;
+		background-image: url('../img/bg-blockquote.gif');
+		background-repeat: no-repeat;
+		background-position: bottom right;
 		p{
 			width: 620px;
 			color: @blockquote-font-color;
@@ -60,10 +64,43 @@
 
 		footer{
 			text-align: right;
-			sup{
+			font-family:"Times New Roman",Georgia,Serif;
+			> sup{
 				color: @blockquote-font-color;
 				font-size: large;
 			}
+			a{
+				font-size: 12px;
+				color: @footer-nav-underline-color;
+				font-style: normal;
+			}
+
+		}
+	}
+
+	.wt-content-box{
+		margin-top: 40px;
+	}
+
+	.wt-what-we-do{
+		> h3{
+			font-size: 18px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			color: @footer-nav-font-color;
+			margin-bottom: 18px;
+			&:first-letter{
+				font-size: 28px;
+			}
+		}
+		> ul {
+			list-style: none;
+			font-family: Georgia, serif;
+			 > li{
+			 	background:url('../img/icons.png') no-repeat -23px -191px;
+			 	padding-left: 15px;
+			 	color: @blockquote-font-color-warn;
+			 	font-style: italic;
+			 }
 		}
 	}
 }
@@ -77,10 +114,6 @@
 		font-weight: normal;
 		line-height: 40px;
 		margin-bottom: 4px;
-		> em{
-			font-size: 28px;
-			font-style: normal;
-		}
 	}
 	.wt-partners-list{
 		list-style: none;
