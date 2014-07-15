@@ -1,3 +1,4 @@
+/* Navigation colors */
 .lt-ie8 .wt-header .wt-main-menu-list {
   width: 528px;
 }
@@ -23,4 +24,14 @@
 .lt-ie8 .wt-partners .wt-partners-list > li {
   float: left;
   margin-left: 22px;
+}
+.wt-browser-happy {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: #00abf5;
+}
+.wt-browser-happy a {
+  color: #FFFFFF;
+  font-weight: bold;
 }

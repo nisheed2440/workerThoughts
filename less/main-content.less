@@ -1,5 +1,71 @@
 .wt-content{
 
+	.wt-content-header{
+		border-bottom: 1px solid @sub-nav-border-color;
+		margin-bottom: 1px;
+		.wt-heading{
+			line-height: 69px;
+			.heading-imgs(@img-url:''){
+				background-image: url(@img-url);
+			}
+			&.wt-heading-img{
+				background-position: 0 center;
+				background-repeat: no-repeat;
+				background-color: #FFF;
+				height: 69px;
+				color: transparent;
+
+				&.wt-heading-img-c1{
+					.heading-imgs('../img/client-1.jpg');
+				}
+				&.wt-heading-img-c2{
+					.heading-imgs('../img/client-2.jpg');
+				}
+				&.wt-heading-img-c3{
+					.heading-imgs('../img/client-3.jpg');
+				}
+				&.wt-heading-img-c4{
+					.heading-imgs('../img/client-4.jpg');
+				}
+			}
+
+		}
+	}
+
+	.wt-special-quote{
+		padding: 25px;
+		background-color: @blockquote-bg-color;
+		p{
+			width: 620px;
+			color: @blockquote-font-color;
+			font-size: 36px;
+			line-height: 38px;
+			font-family: Georgia, serif;
+			letter-spacing: -2px;
+			margin-bottom: 0;
+			padding-top: 4px;
+
+			&:first-letter{
+				font-size: 50px;
+			}
+
+			em{
+				color: @blockquote-font-color-special;
+				font-style: normal;
+				&.warn{
+					color: @blockquote-font-color-warn;
+				}
+			}
+		}
+
+		footer{
+			text-align: right;
+			sup{
+				color: @blockquote-font-color;
+				font-size: large;
+			}
+		}
+	}
 }
 
 .wt-partners{
@@ -13,6 +79,7 @@
 		margin-bottom: 4px;
 		> em{
 			font-size: 28px;
+			font-style: normal;
 		}
 	}
 	.wt-partners-list{

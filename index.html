@@ -9,6 +9,7 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- CSS FILE -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     
@@ -23,30 +24,32 @@
 </head>
 <body>
     <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <p class="wt-browser-happy">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <div class="hidden">
     <![endif]-->
     <header class="wt-header">
         <nav class="wt-main-menu wt-container" role="navigation" aria-labelledby="mainNav">
-            <h1 id="mainNav" class="hidden">Main Navigation</h1>
+            <h2 id="mainNav" class="hidden">Main Navigation</h2>
             <ul class="wt-main-menu-list">
                 <li class="active">
                     <a href="#" title="Menu 1" class="wt-icons wt-icons-search">
-                        <span class="wt-main-menu-txt">Menu 1</span>
+                        <span class="wt-main-menu-txt">Menu1</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="Menu 2" class="wt-icons wt-icons-box">
-                        <span class="wt-main-menu-txt">Menu 2</span>
+                        <span class="wt-main-menu-txt">Menu2</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="Menu 3" class="wt-icons wt-icons-calender">
-                        <span class="wt-main-menu-txt">Menu 3</span>
+                        <span class="wt-main-menu-txt">Menu3</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="Menu 4" class="wt-icons wt-icons-notepad">
-                        <span class="wt-main-menu-txt">Menu 4</span>
+                        <span class="wt-main-menu-txt">Menu4</span>
                     </a>
                 </li>
             </ul>
@@ -55,19 +58,38 @@
 
     <hr class="wt-header-border">
     
-    <nav class="wt-sub-menu wt-container" role="navigation" aria-labelledby="subNav">
-         <h2 id="subNav" class="hidden">Sub Navigation</h2>
-         <ul class="wt-sub-menu-list">
-            <li><a href="#" title="WORK">WORK</a></li>
-            <li><a href="#" title="ABOUT">ABOUT</a></li>
-            <li><a href="#" title="PLANET">PLANET</a></li>
-            <li class="pull-right"><a href="#" title="SEARCH">SEARCH</a></li>
-            <li class="pull-right"><a href="#" title="CONTACT">CONTACT</a></li>
-        </ul>
-    </nav>
-
     <article class="wt-content wt-container" role="main">
+        
+        <header class="wt-content-header">
+            <nav class="wt-sub-menu" role="navigation" aria-labelledby="subNav">
+                 <h2 id="subNav" class="hidden">Sub Navigation</h2>
+                 <ul class="wt-sub-menu-list">
+                    <li><a href="#" title="WORK">WORK</a></li>
+                    <li><a href="#" title="ABOUT">ABOUT</a></li>
+                    <li><a href="#" title="PLANET">PLANET</a></li>
+                    <li class="pull-right"><a href="#" title="SEARCH">SEARCH</a></li>
+                    <li class="pull-right"><a href="#" title="CONTACT">CONTACT</a></li>
+                </ul>
+            </nav>
+            <h1 class="wt-heading wt-heading-img wt-heading-img-c2">NING</h1>
+        </header>
+        
+        <section class="wt-about-us">
+            <blockquote class="wt-special-quote">
+                <p>
+                    Last month, our <em class="warn">work</em> 
+                    helped some of our clients <em>publish 88 million web pages</em>,<br> 
+                    seen by <em>93 million people</em>.<sup>*</sup>
+                </p>
+                <footer>
+                    <sup>*</sup>
+                    <cite>
+                        <a href="#" title="source">Source</a>
+                    </cite>
+                </footer>
+            </blockquote>
 
+        </section>
 
         <footer class="wt-partners">
             <h3 class="wt-partners-list-title">
@@ -117,7 +139,9 @@
             </ul>
         </nav>
     </footer>
-    
+    <!--[if lt IE 7]>
+        </div>
+    <![endif]-->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
