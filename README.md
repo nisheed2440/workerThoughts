@@ -16,3 +16,9 @@ LESS, HTML5, CSS3, GRUNT
 _In order to make HTML5 work on older browsers `html5shiv.js` is being used. Currently it's being conditionally included for IE8 and below browsers._
 
 _On IE6, the user is shown a message to upgrade his/her browser while hiding the rest of the page content._
+
+## Repository Path
+
+```shell
+https://github.com/nisheed2440/workerThoughts
+```
