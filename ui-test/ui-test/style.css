@@ -1,0 +1,290 @@
+* { 
+	margin :0;
+	padding :0;
+}
+
+
+body {
+	font-size :87.5% /* Base font is 14px */
+	font-family: 'Andada', serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+u {
+	border-bottom: 1px dashed #a55814;
+  	text-decoration: none; 
+  	color: #a55814;
+}
+
+.clearall {
+	clear: both;
+}
+
+
+.body {
+	width:100%;
+}
+
+.mainHeader {
+}
+
+.mainMenu {
+	background: url('images/bg.gif') repeat;	
+	height :51px;
+}
+
+.mainMenu nav{
+	margin: 0 auto;
+	width:50%;
+	border:1 px solid black;
+}
+
+.mainMenu nav ul {
+	list-style: none;
+}
+
+.mainMenu nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainMenu nav li a {
+	background-image: url('images/nav.jpg');
+	text-indent: -9999px; 
+	height :51px;
+	float: left;
+	display: block;
+}
+
+.mainMenu nav .menu1 a:link, .mainMenu nav .menu1 a:visited {
+	width:142px; background-position: 0 0;
+}
+
+.mainMenu nav .menu2 a:link, .mainMenu nav .menu2 a:visited  {
+	width:142px; background-position: -142px 0;
+}
+
+.mainMenu nav .menu3 a:link, .mainMenu nav .menu3 a:visited  {
+	width:142px; background-position: -284px 0;
+}
+
+.mainMenu nav .menu4 a:link, .mainMenu nav menu4 a:visited  {
+	width:142px; background-position: -433px 0;
+}
+
+
+.mainMenu nav .menu1 a:hover, .mainMenu nav .menu1 a:active,
+.mainMenu nav .menu1 a.active:link , .mainMenu nav .menu1 a.active:visited  {
+	width:142px; background-position: 0 51px;
+}
+
+.mainMenu nav .menu2 a:hover, .mainMenu nav .menu2 a:active,
+.mainMenu nav .menu2 a.active:link, .mainMenu nav .menu2 a.active:visited {
+	width:142px; background-position: -142px 51px;
+}
+
+.mainMenu nav .menu3 a:hover, .mainMenu nav .menu3 a:active,  
+.mainMenu nav .menu3 a.active:link, .mainMenu nav .menu3 a.active:visited {
+	width:142px; background-position: -284px 51px;
+
+}
+
+.mainMenu nav .menu4 a:hover, .mainMenu .menu4 a:active,  
+.mainMenu nav .menu4 a.active:link, .mainMenu nav .menu4 a.active:visited {
+	width:142px; background-position: -433px 51px;
+}
+
+.main{
+	width:60%;
+	margin: 0 auto;
+}
+
+.subMenu {
+	margin-top:10px;
+	border-bottom:1px solid #eee;
+}
+
+.subMenu nav {
+	height: 59px;
+	
+}
+.specialtxt {
+	color: #ae3518;
+	}
+
+.subMenu nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.subMenu nav ul li {
+	float: left;
+	display: inline;
+}
+
+.subMenu nav ul li.right {
+	float: right;
+	display: inline;
+}
+
+.subMenu nav li a:link, .subMenu nav li a:visited  {
+	float: left;
+	padding: 10px 20px 10px 20px;
+	font-size: 16px;	
+	color:gray;	
+}
+
+.topBox {
+float :left;
+
+	margin-top:10px;
+}
+
+.topBox img {
+		margin-left:-25px;
+	}	
+
+
+.introduction {
+	background-image: url(images/bg-home.png) ;
+	height:191px;
+	font-size:20px;
+	width: 787px;
+}
+
+
+
+.contentBox {
+	float:left;
+	margin-top: 41px;
+	min-height: 200px;
+	min-width: 787px;
+}
+
+.contentBox .shortIntro {
+	width:397px;
+	float:left;
+}
+
+
+.contentBox .shortIntro .mainMsg{
+	font-size:15px;
+	font-weight:800
+	
+}
+
+
+.contentBox .shortIntro .subMsg {
+	margin-top:10px;
+}
+
+
+.contentBox .whatwedo {
+	float:left;
+	margin-left	:40px;
+}
+
+.contentBox .whatwedo p {
+	font-size:16px;
+	font-weight:400;
+	color: #b04227;
+	margin-left:-20px;
+}
+
+.contentBox .whatwedo nav ul {
+	list-style-image:url('images/bullet.gif');
+}
+
+.contentBox .whatwedo nav ul li {
+	color: #b04227;
+	font-style: italic;
+}
+
+
+
+.partnerBox {
+	float:left;
+	margin-top:10px;
+	margin-bottom: 17px;
+}
+
+.partnerBox h1 {
+	font-size:1
+}
+
+.partnerBox nav {
+
+}
+
+.partnerBox nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.partnerBox nav ul li {
+	float: left;
+	display: inline;
+	border :1px solid #eee;
+	margin-left: 9px;
+}
+
+.partnerBox nav li a img{
+	float: left;
+	display: inline-block;
+	padding: 8px;
+}
+
+.mainFooter {
+	clear:both;
+	border-top: #cfc9bd solid 1px;
+}
+
+.mainFooter nav {
+	height:40px;
+	margin-top:20px;
+}
+
+.mainFooter nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainFooter nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainFooter nav ul li.right {
+	float: right;
+	display: inline;
+}
+
+.mainFooter nav li a:link, .mainFooter nav li a:visited  {
+	float: left;
+	padding: 10px 20px 10px 20px;
+	font-size: 15px;
+	color: #b03f2d;
+}
+.logo-ning {
+	height: 70px;
+	border-bottom: #e0e1dc solid 1px;
+}
+.article-home {
+	max-width: 500px;
+	padding: 20px 30px;
+	font-size: 28px;
+}
+.source {
+	float: right;
+	margin: -15px 15px 0px 0px;
+	}
+.source span {
+	color: #a54c2a;
+	font-size: 11px;
+}
+
