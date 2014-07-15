@@ -1,5 +1,10 @@
 (function(doc) {
-
+    /**
+     * Function to remove css classes from and element
+     * @param  {Object} el         The element
+     * @param  {String} className  space separated class names
+     * @return {Object}           The element
+     */
     function removeClass(el, className) {
         var removeClsArray = className.split(' ');
         var elClasses = el.className;

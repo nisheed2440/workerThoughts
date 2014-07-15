@@ -1,4 +1,8 @@
-/* Prerequisites */
+/*! 
+worker-thoughts
+Author: Nisheed Jagadish
+Build Date: 2014-07-16
+Description: File contains the styles for the UI of workerThoughts webpage*/
 /**
  * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
  * Richard Clark (http://richclarkdesign.com)
@@ -174,7 +178,6 @@ select {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* Theme less files*/
 .hidden {
   display: none !important;
 }
@@ -187,7 +190,21 @@ select {
 .underline {
   color: #be4003;
 }
-/* Navigation colors */
+.wt-link {
+  color: #c6cabc;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
 .wt-icons {
   background: url('../img/icons.png') no-repeat;
 }
@@ -303,7 +320,8 @@ select {
   background-repeat: no-repeat;
   background-color: #FFF;
   height: 69px;
-  font-size: 0;
+  font-size: 0%;
+  text-indent: -99999px;
   color: transparent;
 }
 .wt-content .wt-content-header .wt-heading.wt-heading-img.wt-heading-img-c1 {
@@ -355,14 +373,44 @@ select {
 }
 .wt-content .wt-special-quote footer a {
   font-size: 12px;
-  color: #c6cabc;
   font-style: normal;
 }
 .wt-content .wt-content-box {
-  margin-top: 40px;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 11px;
+  margin: 30px 0 70px;
+}
+.wt-content .wt-content-row {
+  display: table-row;
+}
+.wt-content .wt-short-intro {
+  color: #483e3c;
+  font-family: Georgia, serif;
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 11px;
+  width: 50%;
+}
+.wt-content .wt-short-intro > h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.wt-content .wt-short-intro > h3:first-letter {
+  font-size: 28px;
+}
+.wt-content .wt-short-intro > p {
+  margin-top: 12px;
+}
+.wt-content .wt-what-we-do {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 11px;
+  width: 50%;
 }
 .wt-content .wt-what-we-do > h3 {
   font-size: 18px;
+  font-weight: normal;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #be4003;
   margin-bottom: 18px;
@@ -386,8 +434,12 @@ select {
   text-align: left;
   font-size: 18px;
   font-weight: normal;
-  line-height: 40px;
-  margin-bottom: 4px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #be4003;
+  margin-bottom: 18px;
+}
+.wt-partners .wt-partners-list-title:first-letter {
+  font-size: 28px;
 }
 .wt-partners .wt-partners-list {
   list-style: none;
@@ -411,7 +463,7 @@ select {
   border-top: 1px solid #e1e2dd;
 }
 .wt-footer-menu {
-  margin: 20px 0 5px 25px;
+  margin: 20px 25px;
 }
 .wt-footer-menu .wt-footer-menu-list {
   list-style: none;
@@ -427,5 +479,4 @@ select {
 .wt-footer-menu .wt-footer-menu-list > li a {
   font-size: 12px;
   font-family: "Times New Roman", Georgia, Serif;
-  color: #c6cabc;
 }

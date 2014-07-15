@@ -1,5 +1,6 @@
 @import "variables.less";
 
+//CSS fixes for IE7
 .lt-ie8{
 	.wt-header{
 		.wt-main-menu-list{
@@ -34,8 +35,37 @@
 			}
 		}
 	}
+
+
+	.wt-content{
+		.wt-content-box{
+			margin-top: 40px;
+			display: block;
+			&:before,&:after{
+				content:"";
+  				display:table;
+			}
+			&:after {
+			  clear:both;
+			}
+			zoom:1; /* For IE 6/7 (trigger hasLayout) */
+		}
+		.wt-content-row{
+			display: block;
+			padding: 0 11px;
+		}
+		.wt-short-intro,.wt-what-we-do{
+			display: block;
+			width: 362px;
+			float: left;
+			> h3{
+				padding-top: 4px;
+			}
+		}
+	}
 }
 
+//Styles for the upgrade message, shown in IE6 and below browsers
 .wt-browser-happy{
 	text-align: center;
 	height: 50px;

@@ -1,1 +1,6 @@
+/*! 
+worker-thoughts
+Author: Nisheed Jagadish
+Build Date: 2014-07-16
+Description: File contains the css fixes for IE8*/
 .lt-ie9 .wt-header{background:url(../img/bg.gif) repeat-x 0 0}.lt-ie9 .wt-header .wt-main-menu-list>li:hover,.lt-ie9 .wt-header .wt-main-menu-list>li.active{background:url(../img/bg-hover.png) repeat-x 0 0}

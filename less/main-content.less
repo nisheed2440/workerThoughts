@@ -1,5 +1,6 @@
+//Main content
 .wt-content{
-
+	//Content Header
 	.wt-content-header{
 		border-bottom: 1px solid @sub-nav-border-color;
 		margin-bottom: 1px;
@@ -13,7 +14,8 @@
 				background-repeat: no-repeat;
 				background-color: #FFF;
 				height: 69px;
-				font-size: 0;
+				font-size: 0%;
+				text-indent: -99999px;
 				color: transparent;
 
 				&.wt-heading-img-c1{
@@ -32,7 +34,7 @@
 
 		}
 	}
-
+	//Content Quote
 	.wt-special-quote{
 		padding: 25px 25px 15px;
 		background-color: @blockquote-bg-color;
@@ -61,7 +63,7 @@
 				}
 			}
 		}
-
+		//Content Quote Footer
 		footer{
 			text-align: right;
 			font-family:"Times New Roman",Georgia,Serif;
@@ -71,20 +73,48 @@
 			}
 			a{
 				font-size: 12px;
-				color: @footer-nav-underline-color;
 				font-style: normal;
 			}
 
 		}
 	}
-
+	//Content for the about us section
 	.wt-content-box{
-		margin-top: 40px;
+		display: table;
+		border-collapse: separate;
+  		border-spacing: 11px;
+  		margin: 30px 0 70px;;
+	}
+	.wt-content-row{
+		display: table-row;
+	}
+	.wt-short-intro{
+		color: @blockquote-font-color;
+		font-family: Georgia, serif;
+		display: table-cell;
+		vertical-align: top;
+		padding:0 11px;
+		width: 50%;
+		> h3{
+			font-weight: normal;
+			font-size: 16px;
+			&:first-letter{
+				font-size: 28px;
+			}
+		}
+		> p{
+			margin-top: 12px;
+		}
 	}
 
 	.wt-what-we-do{
+		display: table-cell;
+		vertical-align: top;
+		padding:0 11px;
+		width: 50%;
 		> h3{
 			font-size: 18px;
+			font-weight: normal;
 			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 			color: @footer-nav-font-color;
 			margin-bottom: 18px;
@@ -104,7 +134,7 @@
 		}
 	}
 }
-
+//Content Footer
 .wt-partners{
 	.wt-partners-list-title{
 		color:#b0381f;
@@ -112,8 +142,12 @@
 		text-align: left;
 		font-size: 18px;
 		font-weight: normal;
-		line-height: 40px;
-		margin-bottom: 4px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		color: @footer-nav-font-color;
+		margin-bottom: 18px;
+		&:first-letter{
+			font-size: 28px;
+		}
 	}
 	.wt-partners-list{
 		list-style: none;

@@ -1,4 +1,8 @@
-/* Navigation colors */
+/*! 
+worker-thoughts
+Author: Nisheed Jagadish
+Build Date: 2014-07-16
+Description: File contains the css fixes for IE7*/
 .lt-ie8 .wt-header .wt-main-menu-list {
   width: 528px;
 }
@@ -24,6 +28,34 @@
 .lt-ie8 .wt-partners .wt-partners-list > li {
   float: left;
   margin-left: 22px;
+}
+.lt-ie8 .wt-content .wt-content-box {
+  margin-top: 40px;
+  display: block;
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+.lt-ie8 .wt-content .wt-content-box:before,
+.lt-ie8 .wt-content .wt-content-box:after {
+  content: "";
+  display: table;
+}
+.lt-ie8 .wt-content .wt-content-box:after {
+  clear: both;
+}
+.lt-ie8 .wt-content .wt-content-row {
+  display: block;
+  padding: 0 11px;
+}
+.lt-ie8 .wt-content .wt-short-intro,
+.lt-ie8 .wt-content .wt-what-we-do {
+  display: block;
+  width: 362px;
+  float: left;
+}
+.lt-ie8 .wt-content .wt-short-intro > h3,
+.lt-ie8 .wt-content .wt-what-we-do > h3 {
+  padding-top: 4px;
 }
 .wt-browser-happy {
   text-align: center;

@@ -1,16 +1,17 @@
 {
-    "name": "worker-thoughts",
-    "description": "The UI test for ThoughtWorks",
-    "author": {
-        "name": "Nisheed Jagadish",
-        "email": "nisheed2016@gmail.com",
-        "url": "in.linkedin.com/pub/nisheed-jagadish/64/755/b93/"
-    },
-    "version": "0.0.1",
-    "devDependencies": {
-        "grunt": "~0.4.5",
-        "grunt-contrib-jshint": "~0.10.0",
-        "grunt-contrib-less": "^0.11.3",
-        "grunt-contrib-uglify": "~0.5.0"
-    }
+  "name": "worker-thoughts",
+  "description": "The UI test for ThoughtWorks",
+  "author": {
+    "name": "Nisheed Jagadish",
+    "email": "nisheed2016@gmail.com",
+    "url": "in.linkedin.com/pub/nisheed-jagadish/64/755/b93/"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-banner": "^0.2.3",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-less": "^0.11.3",
+    "grunt-contrib-uglify": "~0.5.0"
+  }
 }

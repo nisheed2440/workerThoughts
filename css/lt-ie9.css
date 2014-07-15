@@ -1,4 +1,8 @@
-/* Navigation colors */
+/*! 
+worker-thoughts
+Author: Nisheed Jagadish
+Build Date: 2014-07-16
+Description: File contains the css fixes for IE8*/
 .lt-ie9 .wt-header {
   background: url("../img/bg.gif") repeat-x 0 0;
 }
