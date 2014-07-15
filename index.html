@@ -3,58 +3,121 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/lt-ie9.css">
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/lt-ie8.css">
+    <![endif]-->
+</head>
+<body>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header class="wt-header">
+        <nav class="wt-main-menu wt-container" role="navigation" aria-labelledby="mainNav">
+            <h1 id="mainNav" class="hidden">Main Navigation</h1>
+            <ul class="wt-main-menu-list">
+                <li class="active">
+                    <a href="#" title="Menu 1" class="wt-icons wt-icons-search">
+                        <span class="wt-main-menu-txt">Menu 1</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Menu 2" class="wt-icons wt-icons-box">
+                        <span class="wt-main-menu-txt">Menu 2</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Menu 3" class="wt-icons wt-icons-calender">
+                        <span class="wt-main-menu-txt">Menu 3</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Menu 4" class="wt-icons wt-icons-notepad">
+                        <span class="wt-main-menu-txt">Menu 4</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- LESS CSS FILE -->
-		<link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+    <hr class="wt-header-border">
+    
+    <nav class="wt-sub-menu wt-container" role="navigation" aria-labelledby="subNav">
+         <h2 id="subNav" class="hidden">Sub Navigation</h2>
+         <ul class="wt-sub-menu-list">
+            <li><a href="#" title="WORK">WORK</a></li>
+            <li><a href="#" title="ABOUT">ABOUT</a></li>
+            <li><a href="#" title="PLANET">PLANET</a></li>
+            <li class="pull-right"><a href="#" title="SEARCH">SEARCH</a></li>
+            <li class="pull-right"><a href="#" title="CONTACT">CONTACT</a></li>
+        </ul>
+    </nav>
 
-        <script type="text/javascript" src="js/less.js"></script>
+    <article class="wt-content wt-container" role="main">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="wt-header">
-        	<nav class="wt-main-menu wt-container" role="navigation">
-        		<ul class="wt-main-menu-list">
-        			<li class="active">
-        				<a href="#" title="Menu 1" class="wt-icons wt-icons-search">
-        					<span class="wt-main-menu-txt">Menu 1</span>
-        				</a>
-        			</li>
-        			<li>
-        				<a href="#" title="Menu 2" class="wt-icons wt-icons-box"> 
-        					<span class="wt-main-menu-txt">Menu 2</span>
-        				</a>
-        			</li>
-        			<li>
-        				<a href="#" title="Menu 3" class="wt-icons wt-icons-calender"> 
-        					<span class="wt-main-menu-txt">Menu 3</span>
-        				</a>
-        			</li>
-        			<li>
-        				<a href="#" title="Menu 4" class="wt-icons wt-icons-notepad"> 
-        					<span class="wt-main-menu-txt">Menu 4</span>
-        				</a>
-        			</li>
-        		</ul>
-        	</nav>
-        </header>
-        <hr class="wt-header-border">
 
-        <main class="wt-content wt-container" role="main">
-
-        </main>
-        
-        <footer class="wt-footer">
-            
+        <footer class="wt-partners">
+            <h3 class="wt-partners-list-title">
+                <em>S</em>ome of Our Clients
+            </h3>
+            <ul class="wt-partners-list">
+                <li>
+                    <a href="#" title="National Geographic">
+                        <img src="img/client-1.jpg" alt="National Geographic">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Ning">
+                        <img src="img/client-2.jpg" alt="Ning">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Friendster">
+                        <img src="img/client-3.jpg" alt="Friendster">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Teenspot">
+                        <img src="img/client-4.jpg" alt="Teenspot">
+                    </a>
+                </li>
+            </ul>
         </footer>
-    </body>
+    </article>
+    
+    <footer class="wt-footer wt-container">
+        <nav class="wt-footer-menu" role="navigation" aria-labelledby="footerNav">
+             <h2 id="footerNav" class="hidden">Footer Navigation</h2>
+             <ul class="wt-footer-menu-list">
+                <li>
+                    <a href="#" title="Careers"><span class="underline">Careers</span></a>
+                </li>
+                <li>
+                    <a href="#" title="Site map"><span class="underline">Site Map</span></a>
+                </li>
+                <li>
+                    <a href="#" title="Help"><span class="underline">Help</span></a>
+                </li>
+                <li>
+                    <a href="#" title="Legal"><span class="underline">Legal</span></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>

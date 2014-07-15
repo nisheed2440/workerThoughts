@@ -1,0 +1,30 @@
+
+.wt-sub-menu{
+	height: 50px;
+	margin-top: 10px;
+	border-bottom: 1px solid @sub-nav-border-color;
+	.wt-sub-menu-list{
+		list-style: none;
+		> li {
+			display: inline-block;
+			float: left;
+			padding: 0 10px;
+			line-height: 50px;
+			margin-left: 22px;
+			&:first-child{
+				margin-left: 0;
+			}
+
+			
+			> a{
+				text-decoration: none;
+				font-family:"Times New Roman",Georgia,Serif;
+				color: @sub-nav-font-color;
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
